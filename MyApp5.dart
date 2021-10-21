@@ -62,10 +62,10 @@ class _HomePage5State extends State<HomePage5> {
                                           content: TextFormField(),
                                           actions: [
                                             TextButton(
-                                                onPressed: () {},
+                                                onPressed: () => Navigator.pop(context, 'OK'),
                                                 child: Text('OK')),
                                             TextButton(
-                                                onPressed: () {},
+                                                onPressed: () => Navigator.pop(context, 'Close'),
                                                 child: Text('Close')),
                                           ],
                                         );
